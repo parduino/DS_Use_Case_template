@@ -4,7 +4,7 @@
 
 **Pedro Arduino - University of Washington**
 
-<!-- *key Words: Matlab, Tapis, Python* -->
+*key Words: Matlab, Tapis, Python*
 
 ## Resources
 

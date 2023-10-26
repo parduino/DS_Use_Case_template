@@ -2,11 +2,13 @@
 
 
 
-#### This use-case outlines a Bayesian updating framework that integrates probabilistic calibration of a soil constitutive model and probabilistic prediction of lateral spreading due to seismic liquefaction. To accomplish this, the SimCenter **quoFEM** tool and SimCenter UQ backend applications are utilized alongside a collection of jupyter notebooks that enhance the functionality of quoFEM within the DesignSafe infrastructure [1].
+<!-- #### This use-case outlines a Bayesian updating framework that integrates probabilistic calibration of a soil constitutive model and probabilistic prediction of lateral spreading due to seismic liquefaction. To accomplish this, the SimCenter **quoFEM** tool and SimCenter UQ backend applications are utilized alongside a collection of jupyter notebooks that enhance the functionality of quoFEM within the DesignSafe infrastructure [1]. -->
 
 **Pedro Arduino - University of Washington** <br/>
 **Sang-Ri Yi - SimCenter, UC Berkeley and** <br/>
 **Aakash Bangalore Satish - SimCenter, UC Berkeley**
+
+*key Words: quoFEM, OpenSees, Tapis, Python*
 
 ## Resources
 
