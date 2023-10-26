@@ -1,6 +1,6 @@
 # Launching a Matlab script in Jupyter
 
-#### Launching a Matlab Script from DesignSafe Jupyter Hub using a dedicated Tapis app
+## Launching a Matlab Script from DesignSafe Jupyter Hub using a dedicated Tapis app
 
 **Pedro Arduino - University of Washington**
 
