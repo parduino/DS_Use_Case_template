@@ -1,6 +1,6 @@
 # From constitutive parameter calibration to site response analysis
 
-#### A collection of educational notebooks to introduce model parameter calibration and site response analysis using OpenSees in DesignSafe-CI. 
+## A collection of educational notebooks to introduce model parameter calibration and site response analysis using OpenSees in DesignSafe-CI. 
 
 **Pedro Arduino - University of Washington** <br/>
 **Sang-Ri Yi - SimCenter, UC Berkeley** <br/>
