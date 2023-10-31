@@ -136,7 +136,7 @@ The sensitivity analysis is performed for a simulation model that reproduces the
 </p>
 -->
 
-$$
+<!-- $$
 S_i=\frac{\operatorname{Var}_{\theta_i}\left[\mathbb{E}_{\boldsymbol{\theta}_{\sim i}}\left[Y \mid \theta_i\right]\right]}{\operatorname{Var}_{\boldsymbol{\theta}}[Y]}
 \qquad(1)
 $$
@@ -144,7 +144,12 @@ $$
 $$
 S_i^T=\frac{\mathbb{E}_{\boldsymbol{\theta}_{\sim i}}\left[\operatorname{Var}_{\theta_i}\left[Y \mid \boldsymbol{\theta}_{\sim i}\right]\right]}{\operatorname{Var}_{\boldsymbol{\theta}}[Y]}
 \qquad(2)
-$$
+$$ -->
+
+<p align="center">
+<img src="./img/equation-1-2.png" alt="Eqn 1 2" width="250"/>
+</p>
+<p align="center"> </p>
 
 where $\theta_i$ is the parameter of interest (i.e., one of the $\{D_r,G_o,h_{po}\}$ ) , $\boldsymbol{\theta}_{\sim i}$ denotes the other two parameters, $\mathbb{E}_{\boldsymbol{X}}[.]$ and $\operatorname{Var}_{\boldsymbol{X}}[.]$ denote mean and variance of function over $\boldsymbol{X}$, respectively, and the vertical bar denotes ‘conditional on’. The former index, called the main-effect index, quantifies how much of the variance of $Y$ is attributed to the parameter $\theta_i$, while the latter index, called the total-effect index, also considers the joint contributions of $\theta_i$ and other parameters [3].
 
@@ -181,10 +186,15 @@ Consider now the observations of the CyDSS experiment in Table 2, that are publi
 </p>
 -->
 
-$$
+<!-- $$
 Y_i^m=Y_i(\boldsymbol{\theta})+\varepsilon_i
 \qquad (3)
-$$
+$$ -->
+
+<p align="center">
+<img src="./img/equation-3.png" alt="Eqn 1 2" width="200"/>
+</p>
+<p align="center"> </p>
 
 where noise $\epsilon_i$ is assumed to have zero-mean and unknown variance $\sigma^2_{\epsilon,i}$. Given the six
 measurement values, we can use a Bayesian approach to evaluate the posterior distribution of the parameters of PM4Sand and the unknown noise variances:
@@ -196,10 +206,15 @@ measurement values, we can use a Bayesian approach to evaluate the posterior dis
 </p>
 -->
 
-$$
+<!-- $$
 p\left(\boldsymbol{\theta}, \boldsymbol{\sigma}_{\varepsilon}^2 \mid Y_1^m, . ., Y_6^m\right)=\frac{1}{c} \prod_{i=1}^6 p\left(Y_i^m \mid \boldsymbol{\theta}, \sigma_{\varepsilon}^2\right) p(\boldsymbol{\theta}) p\left(\boldsymbol{\sigma}_{\varepsilon}^2\right)
 \qquad (4)
-$$
+$$ -->
+
+<p align="center">
+<img src="./img/equation-4.png" alt="Eqn 1 2" width="550"/>
+</p>
+<p align="center"> </p>
 
 where $p(∙)$ denotes the (joint) probability distribution, and $c$ is the normalization constant that ensures the area under the posterior distribution is one. From Eq. (3),
 
