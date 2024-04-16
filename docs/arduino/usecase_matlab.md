@@ -1,4 +1,5 @@
-# Launching a Matlab script in Jupyter
+<!-- # Launching an earthquake  Matlab script in Jupyter -->
+# Exploring seismic data running a MATLAB Script in Jupyter
 
 ## Launching a Matlab Script from DesignSafe Jupyter Hub using a dedicated Tapis app
 
